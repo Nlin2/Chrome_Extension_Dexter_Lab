@@ -17,6 +17,9 @@ for (var i = 0; i < elements.length; i++) {
             replaceText = replaceText.replace(/Ph/, 'P');
             replaceText = replaceText.replace(/cough/, 'cop');
 
+            // ealth
+            replaceText = replaceText.replace(/ealth/, 'eld');
+
             // th sound
             replaceText = replaceText.replace(/(?<=[^a-z])th|th(?![a-z])/, 'd');
             replaceText = replaceText.replace(/(?<=[aeiou])th|th(?=[aeiou])/, 'd');
