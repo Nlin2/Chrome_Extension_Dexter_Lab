@@ -1,7 +1,7 @@
 {
 "manifest_version": 2,
     "name": "Chicken Nut Bread",
-    "description": "My girlfriend hab asthma so sometimes chicken nut bread",
+    "description": "My girlfriend hab asthma so sometimes chicken nut bread. Created by Nick Lin",
     "version": "1.0",
     "content_scripts": [
         {
