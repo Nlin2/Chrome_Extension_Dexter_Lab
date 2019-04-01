@@ -24,6 +24,7 @@ for (var i = 0; i < elements.length; i++) {
             replaceText = replaceText.replace(/(?<=[^a-z])th|th(?![a-z])/, 'd');
             replaceText = replaceText.replace(/(?<=[aeiou])th|th(?=[aeiou])/, 'd');
             replaceText = replaceText.replace(/Th/, 'D');
+            replaceText = replaceText.replace(/th/, 't');
             replaceText = replaceText.replace(/athe/, 'ate');
 
             // sion/tion sound
