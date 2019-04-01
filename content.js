@@ -62,9 +62,9 @@ for (var i = 0; i < elements.length; i++) {
             replaceText = replaceText.replace(/eek/, 'ick');
 
             //air
-            replaceText = replaceText.replace(/ere/, 'er');
-            replaceText = replaceText.replace(/eir/, 'er');
-            replaceText = replaceText.replace(/are/, 'er');
+            replaceText = replaceText.replace(/dere/, 'der');
+            replaceText = replaceText.replace(/deir/, 'der');
+            //replaceText = replaceText.replace(/are/, 'er');
 
             replaceText = replaceText.replace(/ath(?![aeiou])/, 'ut');
             replaceText = replaceText.replace(/ool/, 'aul');
