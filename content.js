@@ -31,9 +31,6 @@ for (var i = 0; i < elements.length; i++) {
             replaceText = replaceText.replace(/in/, 'en');
             replaceText = replaceText.replace(/In/, 'En');
 
-            // i -> ee
-            replaceText = replaceText.replace(/i/, 'ee');
-
             // ex
             replaceText = replaceText.replace(/ex/, 'ec');
             // sk, sc
@@ -64,13 +61,12 @@ for (var i = 0; i < elements.length; i++) {
             //air
             replaceText = replaceText.replace(/dere/, 'der');
             replaceText = replaceText.replace(/deir/, 'der');
-            //replaceText = replaceText.replace(/are/, 'er');
 
             replaceText = replaceText.replace(/ath(?![aeiou])/, 'ut');
             replaceText = replaceText.replace(/ool/, 'aul');
             replaceText = replaceText.replace(/ull/, 'aul');
             replaceText = replaceText.replace(/uck/, 'aq');
-            replaceText = replaceText.replace(/ome/, 'un');
+            replaceText = replaceText.replace(/some/, 'sun');
 
             // whole words
             replaceText = replaceText.replace(/(?<=[^a-z])has(?![a-z])/, 'hab');
