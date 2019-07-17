@@ -1,5 +1,5 @@
 # Chicken nut bread
-Ever wanted to know what its like to see the world through the eyes of a first generation Filipino-American immigrant?  
+Ever wanted to know what its like to see the world through the eyes of Dexter of Dexter's Laboratory?  
 Now is your chance! Works with Wikipedia, Twitter
 ![Alt text](trump.png)
 ![Alt text](vet.png)
